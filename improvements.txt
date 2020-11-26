@@ -1,0 +1,7 @@
+What could be improved in this script?
+- Use Orekit EventsLogger for elevation detection (almost done in when_is_iss_visible_bis)
+- Implementation of a conditional loop to get the next time by night (for now you have to check with the function is_day_local_time).
+- Implementation of a conditional loop to get the next time in a given time slot (between 8PM and 11.30PM for example).
+- Function that compute the time zone automatically from the coordinates.
+- Systematic test of is_day_local_time (strange behavior sometime)
+- Implementation of ground_plot
