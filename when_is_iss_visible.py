@@ -9,10 +9,8 @@ from org.orekit.frames import FramesFactory, TopocentricFrame
 from org.orekit.bodies import OneAxisEllipsoid, GeodeticPoint, CelestialBodyFactory
 from org.orekit.propagation.analytical.tle import TLE, TLEPropagator
 from org.orekit.utils import IERSConventions, Constants, PVCoordinatesProvider
-#from org.hipparchus.geometry.euclidean.threed import Vector3D
-#from org.orekit.time import AbsoluteDate#, TimeScalesFactory
 from org.orekit.propagation.events import ElevationDetector, EventsLogger
-from org.orekit.propagation.events.handlers import ContinueOnEvent#, StopOnDecreasing
+from org.orekit.propagation.events.handlers import ContinueOnEvent
 
 
 def get_station(longi, lat, name, planet=OneAxisEllipsoid(Constants.WGS84_EARTH_EQUATORIAL_RADIUS,
